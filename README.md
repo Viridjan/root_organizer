@@ -32,16 +32,16 @@ Each box has a pocket for the wooden pieces, plus a card slot in the lid for the
 
 ### Hirelings (8 boxes, white; each lid in the hireling's colour)
 
-Six boxes hold two hirelings each, one per compartment, and each compartment has its own lid. The top label names both hirelings' animals. Compartments are half the box each, except Last Dynasty (1/3) + Prosperous Farmers (2/3), the widths of the original design.
+Six boxes hold two hirelings each, one per compartment, and each compartment has its own lid. The top label names both hirelings' animals: the first line is the hireling at the far end, the second the one at the near end (as on Map Tokens & Dice). Compartments are half the box each, except Last Dynasty (1/3) + Prosperous Farmers (2/3), the widths of the original design.
 
 | Box | Top label | Inside depth (mm) |
 |---|---|---|
-| Corvid Spies + Sunny Advocates | Corvids / Bats | 20 |
-| Last Dynasty + Prosperous Farmers | Eagles / Ducks | 20 |
-| Flame Bearers + River Roamers | Rats / Frogs | 20 |
-| Spring Uprising + Sunward Expedition | Rabbits / Moles | 20 |
-| Highway Bandits + Warm Sun Prophets | Porcupines / Lizards | 17 |
-| Popular Band + Vault Keepers | Weasels / Badgers | 20 |
+| Corvid Spies + Sunny Advocates | Bats / Corvids | 20 |
+| Last Dynasty + Prosperous Farmers | Ducks / Eagles | 20 |
+| Flame Bearers + River Roamers | Frogs / Rats | 20 |
+| Spring Uprising + Sunward Expedition | Moles / Rabbits | 20 |
+| Highway Bandits + Warm Sun Prophets | Lizards / Porcupines | 17 |
+| Popular Band + Vault Keepers | Badgers / Weasels | 20 |
 | Singletons | Singletons | 10 |
 | Forest Patrol (half width, 36.5 mm) | Cats | 20 |
 
