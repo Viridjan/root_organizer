@@ -6,7 +6,7 @@ Printed on a Bambu Lab A1 with a 0.6 mm nozzle in PLA.
 
 ## What is in the box
 
-Every box is 100 mm tall. The standard box is 70 mm wide; its depth depends on its contents.
+Every box is 100 mm tall. The standard box is 73 mm wide; its depth depends on its contents.
 
 Faction and hireling boxes have the animal on top (species from [The Root Database](https://www.therootdatabase.com/)).
 
@@ -43,7 +43,7 @@ Six boxes hold two hirelings each, one per compartment, and each compartment has
 | Highway Bandits + Sunny Advocates | Porcupines / Bats |
 | Popular Band + Vault Keepers | Weasels / Badgers |
 | Singletons (14 mm deep) | Singletons |
-| Prosperous Farmers (2/3 width, 46.7 mm) | Ducks |
+| Prosperous Farmers (2/3 width, 48.7 mm) | Ducks |
 
 ### General (4 boxes, black)
 
@@ -52,11 +52,11 @@ Six boxes hold two hirelings each, one per compartment, and each compartment has
 | Clearings | 3D-printed clearing pieces |
 | Landmarks | landmark pieces and cards |
 | Map Tokens & Dice | two compartments: dice (Dice lid) and map tokens (Tokens lid) |
-| Hirelings Cards | hireling cards (140 mm wide, double width) |
+| Hirelings Cards | hireling cards (146 mm wide, double width) |
 
 ## Why these sizes
 
-- **70 × 100 mm footprint.** Three standard boxes side by side make 210 mm. That width and the 100 mm height are inherited from the original FreeCAD design. Hirelings Cards is double width (140 mm), and Prosperous Farmers is 2/3 width.
+- **73 × 100 mm footprint.** Three standard boxes side by side make 219 mm. The 100 mm height is inherited from the original FreeCAD design (which had 70 mm wide boxes). Hirelings Cards is double width (146 mm), and Prosperous Farmers is 2/3 width.
 - **Depth per box.** The wood pocket depth (`wood_depth`) is the depth of the faction's pieces lying flat. A box with a card pocket adds the card stack thickness, a 1.5 mm wall and the 2.5 mm lid, so each box is only as deep as its contents need.
 - **Card pockets.** Faction card pockets are 67 × 91.5 mm, for standard Root cards (63.5 × 88 mm) in Popcorn Games hard sleeves (63.5 × 88 size); card stack thicknesses (`card_stack_thickness`) were measured with the sleeves on. The hireling card pocket is 124 × 73 mm, for the large hireling cards (unsleeved). A U-shaped thumb cutout in the lid lets you pull the cards out.
 - **Walls 1.5 mm** (two and a half 0.6 mm extrusion lines), so the walls stay stiff.
