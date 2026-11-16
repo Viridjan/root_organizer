@@ -1,0 +1,4 @@
+.bambu/__pycache__/
+.bambu/slice/
+.bambu/plates_raw.3mf
+result.json
