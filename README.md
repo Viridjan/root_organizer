@@ -83,6 +83,6 @@ flatpak run --command=bambu-studio com.bambulab.BambuStudio --arrange 0 --orient
 
 ## License
 
-[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) (full text in `LICENSE`). You may use, remix and share these files, including commercially, as long as you credit **Viridjan** (https://github.com/Viridjan/root_organizer) and say what you changed.
+[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) (full text in `LICENSE`). You may use, remix and share these files for non-commercial purposes, as long as you credit **Viridjan** (https://github.com/Viridjan/root_organizer) and say what you changed.
 
 Root is a game by Leder Games; this is an unofficial fan-made organizer.
