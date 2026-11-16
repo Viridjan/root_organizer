@@ -6,7 +6,7 @@ Printed on a Bambu Lab A1 with a 0.6 mm nozzle in PLA.
 
 ## What is in the box
 
-Every box is 100 mm tall. The standard box is 73 mm wide; its depth depends on its contents.
+Every box is 100 mm tall. The standard box is 73 mm wide; its depth depends on its contents. Depths below are the **inside** depth of the wood pocket (the space for the pieces); the box is 4 mm deeper outside (1.5 mm back wall + 2.5 mm lid).
 
 Faction and hireling boxes have the animal on top (species from [The Root Database](https://www.therootdatabase.com/)).
 
@@ -14,21 +14,21 @@ Faction and hireling boxes have the animal on top (species from [The Root Databa
 
 Each box has a pocket for the wooden pieces, plus a card slot in the lid for the faction's cards.
 
-| Box | Top label | Depth (mm) |
+| Box | Top label | Inside depth (mm) |
 |---|---|---|
-| Marquise de Cat | Cats | 27 |
-| Eyrie Dynasties | Eagles | 20.5 |
-| Woodland Alliance | Alliance | 18 |
-| Vagabond (two boxes sharing one lid) | Vagabond | 27.5 + 17.5 |
-| Riverfolk Company | Otters | 15.5 |
-| Lizard Cult | Lizards | 24.5 |
-| Underground Duchy | Moles | 23.5 |
-| Corvid Conspiracy | Corvids | 18 |
-| Lord of the Hundreds | Rats | 27 |
-| Keepers in Iron | Badgers | 22.5 |
-| Lilypad Diaspora | Frogs | 23 |
-| Twilight Council | Bats | 24 |
-| Knaves of the Deepwood | Skunks | 18 |
+| Marquise de Cat | Cats | 23 |
+| Eyrie Dynasties | Eagles | 16.5 |
+| Woodland Alliance | Alliance | 14 |
+| Vagabond (two boxes sharing one lid) | Vagabond | 23.5 + 13.5 |
+| Riverfolk Company | Otters | 11.5 |
+| Lizard Cult | Lizards | 20.5 |
+| Underground Duchy | Moles | 19.5 |
+| Corvid Conspiracy | Corvids | 14 |
+| Lord of the Hundreds | Rats | 23 |
+| Keepers in Iron | Badgers | 18.5 |
+| Lilypad Diaspora | Frogs | 19 |
+| Twilight Council | Bats | 20 |
+| Knaves of the Deepwood | Skunks | 14 |
 
 ### Hirelings (8 boxes, white; each lid in the hireling's colour)
 
@@ -42,7 +42,7 @@ Six boxes hold two hirelings each, one per compartment, and each compartment has
 | Spring Uprising + Sunward Expedition | Rabbits / Moles |
 | Highway Bandits + Sunny Advocates | Porcupines / Bats |
 | Popular Band + Vault Keepers | Weasels / Badgers |
-| Singletons (14 mm deep) | Singletons |
+| Singletons (10 mm inside) | Singletons |
 | Prosperous Farmers (2/3 width, 48.7 mm) | Ducks |
 
 ### General (4 boxes, black)
@@ -51,13 +51,13 @@ Six boxes hold two hirelings each, one per compartment, and each compartment has
 |---|---|
 | Clearings | 3D-printed clearing pieces |
 | Landmarks | landmark pieces and cards |
-| Map Tokens & Dice | two compartments: dice (Dice lid) and map tokens (Tokens lid) |
+| Map Tokens & Dice | two compartments, 22.5 mm inside (fits the 22 mm dice): dice (Dice lid) and map tokens (Tokens lid) |
 | Hirelings Cards | hireling cards (146 mm wide, double width) |
 
 ## Why these sizes
 
 - **73 × 100 mm footprint.** Three standard boxes side by side make 219 mm. The 100 mm height is inherited from the original FreeCAD design (which had 70 mm wide boxes). Hirelings Cards is double width (146 mm), and Prosperous Farmers is 2/3 width.
-- **Depth per box.** The wood pocket depth (`wood_depth`) is the depth of the faction's pieces lying flat. A box with a card pocket adds the card stack thickness, a 1.5 mm wall and the 2.5 mm lid, so each box is only as deep as its contents need.
+- **Depth per box.** The wood pocket depth (`wood_depth`) is the depth of the faction's pieces lying flat. The box adds a 1.5 mm back wall and the 2.5 mm lid, plus the card stack and its walls on boxes with a card pocket, so each box is only as deep as its contents need.
 - **Card pockets.** Faction card pockets are 67 × 91.5 mm, for standard Root cards (63.5 × 88 mm) in Popcorn Games hard sleeves (63.5 × 88 size); card stack thicknesses (`card_stack_thickness`) were measured with the sleeves on. The hireling card pocket is 124 × 73 mm, for the large hireling cards (unsleeved). A U-shaped thumb cutout in the lid lets you pull the cards out.
 - **Walls 1.5 mm** (two and a half 0.6 mm extrusion lines), so the walls stay stiff.
 - **Sliding lid.** The lid slides in a 60° dovetail groove. It has 0.25 mm clearance per side, so it slides on a 0.6 mm nozzle print without being loose. Small "wings" at the bottom of the groove stop the lid and keep it flush with the base.
