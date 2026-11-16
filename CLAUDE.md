@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this is
 
-A parametric 3D-printable organizer insert for the board game Root. No tests. Original design: FreeCAD `supersketch.FCStd`; current designs: SolidCraft `single.sc`, `nocard.sc`, `slit.sc`, `wide.sc`, `double.sc`; prints and the Bambu project are built by `.bambu/plates.py` (see Printing). `README.md` is the user-facing description (box contents, sizes; depths listed are inside pocket depth = `wood_depth`, user 2026-11-16); keep it in sync when boxes or labels change. Git repo, pushed to GitHub (`gh`).
+A parametric 3D-printable organizer insert for the board game Root. No tests. Original design: FreeCAD `supersketch.FCStd`; current designs: SolidCraft `single.sc`, `nocard.sc`, `slit.sc`, `wide.sc`, `double.sc`; prints and the Bambu project are built by `.bambu/plates.py` (see Printing). `TODO.md` lists pending work (check it at the start of a session). `README.md` is the user-facing description (box contents, sizes; depths listed are inside pocket depth = `wood_depth`, user 2026-11-16); keep it in sync when boxes or labels change. Git repo, pushed to GitHub (`gh`).
 
 Each printed box holds one faction/component set and has two removable (suppressible) parts:
 - a **wood pocket with a sliding lid**, opening on the ZY plane (holds the wooden pieces);
