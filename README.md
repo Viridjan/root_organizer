@@ -68,9 +68,9 @@ Six boxes hold two hirelings each, one per compartment, and each compartment has
 
 | File | What it is |
 |---|---|
-| `cards.sc`, `plain.sc`, `divided.sc` | Parametric [SolidCraft](https://getartcraft.com) designs, one configuration row per box: faction and card boxes; plain boxes; two-compartment boxes |
-| `hireling_cards.sc` | The double-width Hirelings Cards box (single design, no table) |
-| `vagabond_double.sc` | The two Vagabond boxes joined by one shared lid |
+| `single.sc`, `plain.sc`, `slit.sc` | Parametric [SolidCraft](https://getartcraft.com) designs, one configuration row per box: faction and card boxes; plain boxes; two-compartment boxes |
+| `wide.sc` | The double-width Hirelings Cards box (one box, no configuration table) |
+| `double.sc` | The two Vagabond boxes joined by one shared lid |
 | `supersketch.FCStd` | The original FreeCAD design |
 | `prints/` | One 3MF per box (box + lid), exported from the SolidCraft designs |
 | `.bambu/plates.py` | Builds the Bambu Studio project from `prints/`: one plate per filament colour, with parts spread evenly |

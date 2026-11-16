@@ -14,13 +14,13 @@ PLATE_GAP = 0.2      # BambuStudio LOGICAL_PART_PLATE_GAP: plate stride = BED * 
 LID_LABELS = {"dice_tokens": ["Dice", "Tokens"]}  # lid i+1 > 1 comes from NN_<key>_lid<i+1>.3mf
 LIDS = {"dice_tokens": 2, "hirelings_2": 2, "hirelings_3": 3}  # one lid per compartment
 # Plates are per colour (any container type); TYPES only lists what is printed (hirelings 2/3: leftovers).
-# Hireling "a__b" keys: two half-width hirelings in one faction-width box (divided.sc rows "A + B"),
+# Hireling "a__b" keys: two half-width hirelings in one faction-width box (slit.sc rows "A + B"),
 # lid 1 = a, lid 2 = b from NN_a__b_lid2.3mf; pairs chosen for contrasting, non-repeating lid colours.
 TYPES = {
     "general": ["clearings", "landmarks", "dice_tokens", "hirelings_cards"],  # dice, tokens: not printed (dice_tokens holds both)
     "factions": ["corvid_conspiracy", "eyrie_dynasties", "keepers_in_iron", "knaves_of_the_deepwood", "lilypad_diaspora",
                  "lizard_cult", "lord_of_the_hundreds", "marquise_de_cat", "riverfolk_company", "twilight_council",
-                 "underground_duchy", "vagabond_double", "woodland_alliance"],  # vagabond + vagabond_2: one double box (vagabond_double.sc)
+                 "underground_duchy", "vagabond_double", "woodland_alliance"],  # vagabond + vagabond_2: one double box (double.sc)
     "hireling": ["singletons", "corvid_spies__warm_sun_prophets", "last_dynasty__forest_patrol",
                  "flame_bearers__river_roamers", "spring_uprising__sunward_expedition",
                  "highway_bandits__sunny_advocates", "popular_band__vault_keepers", "prosperous_farmers"],
