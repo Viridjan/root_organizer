@@ -27,7 +27,9 @@ MCP servers `solidcraft` (headless) and `solidcraft-live` (drives the app; start
 - Their file sandbox excludes this folder: `open`/`save` fail with "outside the folders this agent may use". Either copy the file into the allowed `/tmp/solidcraft-mcp-*` folder, or re-register the server with `--allow-path /home/viridjan/Projects/root_organizer`.
 - Opening the `.FCStd` imports only frozen geometry (≈295 bodies, many open shells); FreeCAD parameters don't transfer.
 
-### `root_organizer.sc` — parametric SolidCraft rebuild of `supersketch.FCStd`
+### `root_organizer.sc` — parametric SolidCraft rebuild of `supersketch.FCStd` (deleted)
+
+Deleted from the repo (user, 2026-11-16); it remains in git history. The notes below still describe the recipes the split designs inherited.
 
 - Bodies `Box` (at origin) and `Lid` (at y = `lid_offset` = `W + 30 mm`, so it never overlaps a wide box). Only `box full` + `lid big` were rebuilt; FreeCAD's `box half`/`box third` were identical copies.
 - Compartments: `WoodCavity` + `LidSlit` + `LidWings` repeated by `CompartmentPattern`/`WingsPattern` with count `mini_slots`, spacing `pitch` (FreeCAD instead drew 3 fixed rectangles). One lid body = one compartment's lid.
@@ -43,7 +45,7 @@ MCP servers `solidcraft` (headless) and `solidcraft-live` (drives the app; start
 - Labels and row names use the official Root names (Keepers in Iron, Knaves of the Deepwood, Lord of the Hundreds, Last Dynasty, Eyrie Dynasties); the FreeCAD sheet's spellings were wrong.
 - Verified per row: box volume = FreeCAD within ~2 mm³ (underscore text), lid = analytic formula. Text font is "DejaVu Sans" by family name (font file paths are outside the MCP sandbox).
 - Work on it in SolidCraft, then `save` to the sandbox and copy back here (or add `--allow-path` as above).
-- **Now an archive**: prints come from three split designs (below); `root_organizer.sc` lacks their later changes (centred text, wing chamfer, `Vagabond` label). Its parameters now use the split designs' names too (user, 2026-11-16: same name for the same variable in every file); only it still has `top_text_line2` (old `text1`), `text_zx`/`text_zy` and `lid_text` (its `dice tokens` lid differs from the side label).
+- Superseded by the three split designs (below), which carry later changes (centred text, wing chamfer, `Vagabond` label).
 
 ### Split designs: `cards.sc`, `plain.sc`, `divided.sc`
 
