@@ -304,7 +304,9 @@ def main(src, out):
              f'<build p:UUID="{uuid.uuid4()}">{"".join(items)}</build></model>')
     cfg = ['<?xml version="1.0" encoding="UTF-8"?>\n<config>']
     for _, obj_id, mesh_id, name, fil in objs:
-        cfg.append(f'<object id="{obj_id}"><metadata key="name" value="{name}"/><metadata key="extruder" value="{fil}"/>'
+        # user: brim on the lids only (they stand upright); boxes lie flat and need none
+        brim = "" if " - lid" in name else '<metadata key="brim_type" value="no_brim"/>'
+        cfg.append(f'<object id="{obj_id}"><metadata key="name" value="{name}"/><metadata key="extruder" value="{fil}"/>{brim}'
                    f'<part id="{mesh_id}" subtype="normal_part"><metadata key="name" value="{name}"/>'
                    '<metadata key="matrix" value="1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"/></part></object>')
     for pi, inst in plate_cfg:
