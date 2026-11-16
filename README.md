@@ -32,18 +32,18 @@ Each box has a pocket for the wooden pieces, plus a card slot in the lid for the
 
 ### Hirelings (8 boxes, white; each lid in the hireling's colour)
 
-Six boxes hold two hirelings each, one per compartment, and each compartment has its own lid. The top label names both hirelings' animals.
+Six boxes hold two hirelings each, one per compartment, and each compartment has its own lid. The top label names both hirelings' animals. Compartments are half the box each, except Last Dynasty (1/3) + Prosperous Farmers (2/3), the widths of the original design.
 
-| Box | Top label |
-|---|---|
-| Corvid Spies + Warm Sun Prophets | Corvids / Lizards |
-| Last Dynasty + Forest Patrol | Eagles / Cats |
-| Flame Bearers + River Roamers | Rats / Frogs |
-| Spring Uprising + Sunward Expedition | Rabbits / Moles |
-| Highway Bandits + Sunny Advocates | Porcupines / Bats |
-| Popular Band + Vault Keepers | Weasels / Badgers |
-| Singletons (10 mm inside) | Singletons |
-| Prosperous Farmers (2/3 width, 48.7 mm) | Ducks |
+| Box | Top label | Inside depth (mm) |
+|---|---|---|
+| Corvid Spies + Sunny Advocates | Corvids / Bats | 20 |
+| Last Dynasty + Prosperous Farmers | Eagles / Ducks | 20 |
+| Flame Bearers + River Roamers | Rats / Frogs | 20 |
+| Spring Uprising + Sunward Expedition | Rabbits / Moles | 20 |
+| Highway Bandits + Warm Sun Prophets | Porcupines / Lizards | 17 |
+| Popular Band + Vault Keepers | Weasels / Badgers | 20 |
+| Singletons | Singletons | 10 |
+| Forest Patrol (half width, 36.5 mm) | Cats | 20 |
 
 ### General (4 boxes, black)
 
@@ -56,7 +56,7 @@ Six boxes hold two hirelings each, one per compartment, and each compartment has
 
 ## Why these sizes
 
-- **73 × 100 mm footprint.** Three standard boxes side by side make 219 mm. The 100 mm height is inherited from the original FreeCAD design (which had 70 mm wide boxes). Hirelings Cards is double width (146 mm), and Prosperous Farmers is 2/3 width.
+- **73 × 100 mm footprint.** Three standard boxes side by side make 219 mm. The 100 mm height is inherited from the original FreeCAD design (which had 70 mm wide boxes). Hirelings Cards is double width (146 mm), and Forest Patrol is half width.
 - **Depth per box.** The wood pocket depth (`wood_depth`) is the depth of the faction's pieces lying flat. The box adds a 1.5 mm back wall and the 2.5 mm lid, plus the card stack and its walls on boxes with a card pocket, so each box is only as deep as its contents need.
 - **Card pockets.** Faction card pockets are 67 × 91.5 mm, for standard Root cards (63.5 × 88 mm) in Popcorn Games hard sleeves (63.5 × 88 size); card stack thicknesses (`card_stack_thickness`) were measured with the sleeves on. The hireling card pocket is 124 × 73 mm, for the large hireling cards (unsleeved). A U-shaped thumb cutout in the lid lets you pull the cards out.
 - **Walls 1.5 mm** (two and a half 0.6 mm extrusion lines), so the walls stay stiff.
