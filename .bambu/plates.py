@@ -183,19 +183,30 @@ def pack(groups):
 
 
 def project_settings():
-    """Flattened A1 profiles (.bambu/*.json) with one PLA Basic filament per FILAMENTS entry."""
+    """Settings of a working Bambu Studio GUI project (.bambu/reference_settings.json: A1 0.6 nozzle,
+    0.30mm Strength, Bambu PLA Basic, Textured PEI Plate), with filament slot 1 copied to one
+    filament per FILAMENTS entry. A hand-flattened profile had a stub start G-code and Cool Plate."""
     here = os.path.dirname(os.path.abspath(__file__))
-    cfg = {}
-    for n in ("machine", "process", "filament"):
-        cfg.update(json.load(open(os.path.join(here, f"{n}.json"))))
-    fil = json.load(open(os.path.join(here, "filament.json")))
-    for k, v in fil.items():   # per-filament settings: one entry per filament
-        if isinstance(v, list) and len(v) == 1:
-            cfg[k] = v * len(FILAMENTS)
+    cfg = json.load(open(os.path.join(here, "reference_settings.json")))
+    k_ref = len(cfg["filament_colour"])
+    n = len(FILAMENTS)
+    for k, v in list(cfg.items()):
+        if not isinstance(v, list) or not v:
+            continue
+        if k == "flush_volumes_matrix":   # n x n, 0 on the diagonal (one filament per plate anyway)
+            cfg[k] = ["0" if i == j else v[1] for i in range(n) for j in range(n)]
+        elif k.startswith("filament_") or (len(v) == k_ref and k not in ("printable_area", "head_wrap_detect_zone")):
+            if len(v) % k_ref == 0:       # per filament, possibly several entries each
+                step = len(v) // k_ref
+                cfg[k] = v[:step] * n
+        elif k == "flush_volumes_vector":
+            cfg[k] = v[:2] * n
     cfg["filament_colour"] = list(FILAMENTS.values())
+    cfg["filament_self_index"] = [str(i + 1) for i in range(n)]
+    cfg["enable_support"] = "0"           # boxes lie on their back; supports would fill the lid grooves
+    cfg["different_settings_to_system"] = ["brim_type;wall_generator;wall_sequence"] + [""] * n + [""]
     # Per-filament keys the Bambu CLI adds with a single entry; the GUI rejects the project
     # ("Invalid configuration file") unless every per-filament list has one entry per filament.
-    n = len(FILAMENTS)
     for k, v in {"filament_change_length_nc": "10", "filament_idle_travel_cooling_enabled": "1",
                  "filament_is_mixed": "0", "filament_map": "1", "filament_map_2": "1",
                  "filament_mixed_components": "", "filament_mixed_gradient": "0",
@@ -204,8 +215,8 @@ def project_settings():
                  "filament_nozzle_map": "1", "filament_prime_tower_speed_factor_curve": "",
                  "filament_retract_length_toolchange": "nil", "filament_retract_restart_extra_toolchange": "nil",
                  "filament_volume_map": "0"}.items():
-        cfg[k] = [v] * n
-    cfg["filament_self_index"] = [str(i + 1) for i in range(n)]
+        if k not in cfg:
+            cfg[k] = [v] * n
     return cfg
 
 
