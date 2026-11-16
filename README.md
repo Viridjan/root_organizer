@@ -68,7 +68,7 @@ Six boxes hold two hirelings each, one per compartment, and each compartment has
 
 | File | What it is |
 |---|---|
-| `single.sc`, `plain.sc`, `slit.sc` | Parametric [SolidCraft](https://getartcraft.com) designs, one configuration row per box: faction and card boxes; plain boxes; two-compartment boxes |
+| `single.sc`, `nocard.sc`, `slit.sc` | Parametric [SolidCraft](https://getartcraft.com) designs, one configuration row per box: faction and card boxes; plain boxes; two-compartment boxes |
 | `wide.sc` | The double-width Hirelings Cards box (one box, no configuration table) |
 | `double.sc` | The two Vagabond boxes joined by one shared lid |
 | `supersketch.FCStd` | The original FreeCAD design |
