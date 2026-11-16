@@ -56,7 +56,7 @@ Six boxes hold two hirelings each, one per compartment, and each compartment has
 
 - **70 × 100 mm footprint.** Three standard boxes side by side make 210 mm. That width and the 100 mm height are inherited from the original FreeCAD design. Hirelings Cards is double width (140 mm), and Prosperous Farmers is 2/3 width.
 - **Depth per box.** The wood pocket depth (`wood_t`) is the depth of the faction's pieces lying flat. A box with a card pocket adds the card stack thickness, a 1.5 mm wall and the 2.5 mm lid, so each box is only as deep as its contents need.
-- **Card pockets.** Faction card pockets are 67 × 91.5 mm, for sleeved standard Root cards (63 × 88 mm). The hireling card pocket is 124 × 73 mm, for the large hireling cards. A U-shaped thumb cutout in the lid lets you pull the cards out.
+- **Card pockets.** Faction card pockets are 67 × 91.5 mm, for standard Root cards (63.5 × 88 mm) in Popcorn Games hard sleeves (63.5 × 88 size). The hireling card pocket is 124 × 73 mm, for the large hireling cards. A U-shaped thumb cutout in the lid lets you pull the cards out.
 - **Walls 1.5 mm** (two and a half 0.6 mm extrusion lines), so the walls stay stiff.
 - **Sliding lid.** The lid slides in a 60° dovetail groove. It has 0.25 mm clearance per side, so it slides on a 0.6 mm nozzle print without being loose. Small "wings" at the bottom of the groove stop the lid and keep it flush with the base.
 - **Text.** DejaVu Sans Bold, 5.5 mm capital height, engraved 0.5 mm deep. Regular-weight strokes would be thinner than the 0.6 mm nozzle; long names are set slightly smaller (4.5 to 5.2 mm).
