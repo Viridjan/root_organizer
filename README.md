@@ -8,9 +8,11 @@ Printed on a Bambu Lab A1 with a 0.6 mm nozzle in PLA.
 
 Every box is 100 mm tall. The standard box is 70 mm wide; its depth depends on its contents.
 
+Faction and hireling boxes have the animal on top (species from [The Root Database](https://www.therootdatabase.com/)).
+
 ### Factions (13 boxes, in the faction's colour)
 
-Each box has a pocket for the wooden pieces, plus a card slot in the lid for the faction's cards. The top label is the faction's animal.
+Each box has a pocket for the wooden pieces, plus a card slot in the lid for the faction's cards.
 
 | Box | Top label | Depth (mm) |
 |---|---|---|
@@ -30,7 +32,7 @@ Each box has a pocket for the wooden pieces, plus a card slot in the lid for the
 
 ### Hirelings (8 boxes, white; each lid in the hireling's colour)
 
-Six boxes hold two hirelings each, one per compartment, and each compartment has its own lid. The top label names both hirelings' animals, from [The Root Database](https://www.therootdatabase.com/).
+Six boxes hold two hirelings each, one per compartment, and each compartment has its own lid. The top label names both hirelings' animals.
 
 | Box | Top label |
 |---|---|
