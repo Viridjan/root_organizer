@@ -4,7 +4,7 @@
 
 /* [Preset] */
 // A Root box (hireling pairs, dice + map tokens), or Custom to use the values below
-preset = "Custom"; // [Custom, Dice + Map Tokens, Corvid Spies + Sunny Advocates, Last Dynasty + Prosperous Farmers, Flame Bearers + Forest Patrol, Spring Uprising + Sunward Expedition, Highway Bandits + Warm Sun Prophets, Popular Band + Vault Keepers]
+preset = "Custom"; // [Custom, Dice + Map Tokens, Corvid Spies + Sunny Advocates, Last Dynasty + Prosperous Farmers, Flame Bearers + Forest Patrol, Spring Uprising + Sunward Expedition, Popular Band + Vault Keepers]
 
 /* [Box] */
 // Inside depth of both compartments (mm)
@@ -51,7 +51,6 @@ presets = [
     ["Last Dynasty + Prosperous Farmers", "Last Dynasty", "Prosperous Farmers", "", "Ducks", "Eagles", 6, 18.5, 1/3],
     ["Flame Bearers + Forest Patrol", "Flame Bearers", "Forest Patrol", "", "Cats", "Rats", 6, 18.5, 1/2],
     ["Spring Uprising + Sunward Expedition", "Spring Uprising", "Sunward Expedition", "", "Moles", "Rabbits", 6, 18.5, 1/2],
-    ["Highway Bandits + Warm Sun Prophets", "Highway Bandits", "Warm Sun Prophets", "", "Lizards / Porcupines", "", 4.3, 10, 1/2],
     ["Popular Band + Vault Keepers", "Popular Band", "Vault Keepers", "", "Badgers", "Weasels", 6, 18.5, 1/2],
 ];
 

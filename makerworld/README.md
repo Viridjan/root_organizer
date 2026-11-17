@@ -7,14 +7,15 @@ OpenSCAD ports of the SolidCraft designs, one file per MakerWorld listing. Each 
 | `root_organizer_single.scad` | Faction box with card lid (presets: the 12 factions + Landmarks) | `single.sc` |
 | `root_organizer_wide.scad` | Double-width card box (Hirelings cards) | `wide.sc` |
 | `root_organizer_nocard.scad` | Plain box (presets: Clearings, Singletons, River Roamers) | `nocard.sc` |
-| `root_organizer_split.scad` | Two-compartment box, two lids (presets: Dice + Map Tokens, the 6 hireling pairs) | `split.sc` |
+| `root_organizer_split.scad` | Two-compartment box, two lids (presets: Dice + Map Tokens, 5 hireling pairs) | `split.sc` |
+| `root_organizer_split_thin.scad` | Shallow two-compartment box, one-line top label (default: Highway Bandits + Warm Sun Prophets) | `split_thin.sc` |
 | `root_organizer_double.scad` | Vagabond double box (two boxes, one shared lid) | `double.sc` |
 
 The geometry matches the SolidCraft prints: volumes are within 0.2 % of `prints/`, and the only difference is the font.
 
 ## Editing
 
-Don't edit the five `.scad` files above: `python3 makerworld/build.py` writes them from `src/`.
+Don't edit the six `.scad` files above: `python3 makerworld/build.py` writes them from `src/`.
 
 - **`src/<name>.params.scad`**: the customizer parameters (and presets) of each listing.
 - **`src/lib.scad`**: the shared geometry (box, lid, labels).
