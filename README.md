@@ -4,6 +4,11 @@ A 3D-printable insert for the board game **Root** (base game and expansions). Th
 
 Printed on a Bambu Lab A1 with a 0.6 mm nozzle in PLA.
 
+## Used with
+
+- [Root the Board Game: Token Capsule](https://makerworld.com/en/models/579471-root-the-board-game-token-capsule#profileId-500269) (MakerWorld): the token capsules used in this organizer. They are a separate model and not part of this repository.
+- [Root: Multi-Color Clearing Markers](https://makerworld.com/en/models/30397-root-multi-color-clearing-markers#profileId-49054) (MakerWorld): the clearing markers used in this organizer. They are a separate model and not part of this repository.
+
 ## What is in the box
 
 Every box is 100 mm tall. The standard box is 71.5 mm wide; its depth depends on its contents. Depths below are the **inside** depth of the wood pocket (the space for the pieces); the box is 4 mm deeper outside (1.5 mm back wall + 2.5 mm lid).
@@ -83,11 +88,6 @@ To rebuild the Bambu project after re-exporting boxes:
 python3 .bambu/plates.py prints out.3mf
 flatpak run --command=bambu-studio com.bambulab.BambuStudio --arrange 0 --orient 0 --export-3mf root_organizer_A1.3mf out.3mf
 ```
-
-## Used with
-
-- [Root the Board Game: Token Capsule](https://makerworld.com/en/models/579471-root-the-board-game-token-capsule#profileId-500269) (MakerWorld): the token capsules used in this organizer. They are a separate model and not part of this repository.
-- [Root: Multi-Color Clearing Markers](https://makerworld.com/en/models/30397-root-multi-color-clearing-markers#profileId-49054) (MakerWorld): the clearing markers used in this organizer. They are a separate model and not part of this repository.
 
 ## License
 
