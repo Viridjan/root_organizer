@@ -42,7 +42,7 @@ COLOURS = {"marquise_de_cat": "Orange", "eyrie_dynasties": "Blue", "riverfolk_co
            "underground_duchy": "Beige",
            "forest_patrol": "Orange", "last_dynasty": "Blue", "river_roamers": "Green", "spring_uprising": "Green",
            "corvid_spies": "Purple", "flame_bearers": "Red", "prosperous_farmers": "Yellow",
-           "warm_sun_prophets": "Yellow", "vault_keepers": "Gray", "sunny_advocates": "Brown",
+           "warm_sun_prophets": "Yellow", "vault_keepers": "Silver", "sunny_advocates": "Brown",
            "highway_bandits": "Pink", "popular_band": "Pink", "sunward_expedition": "Beige"}
 
 
