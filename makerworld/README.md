@@ -22,6 +22,10 @@ Don't edit the seven `.scad` files above: `python3 makerworld/build.py` writes t
 - **`src/lib.scad`**: the shared geometry (box, lid, labels).
 - **`src/main_*.scad`**: puts the parts together.
 
+## Publishing
+
+`LISTINGS.md` has the ready-to-paste text for each listing: title, summary, tags, description, category and license. `images/` holds a cover render for each listing, and `print_profiles/` a Bambu 3MF of each default box (see below to rebuild them).
+
 ## Upload
 
 1. On MakerWorld, create a new model. Upload the `.scad` file instead of a 3MF; MakerWorld adds the Customize button.

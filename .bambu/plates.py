@@ -232,6 +232,8 @@ def main(src, out):
     groups = []
     for kind, keys in TYPES.items():
       for key in keys:
+        if key not in files_by_key:   # a subset of prints/ (e.g. one MakerWorld print profile)
+            continue
         f = files_by_key[key]
         title = key.replace("_", " ").title()
         parts = read_parts(f)
