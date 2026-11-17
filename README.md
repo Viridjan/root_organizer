@@ -32,7 +32,7 @@ Each box has a pocket for the wooden pieces, plus a card slot in the lid for the
 | Lord of the Hundreds | Rats | 23 |
 | Keepers in Iron | Badgers | 18.5 |
 | Lilypad Diaspora | Frogs | 19 |
-| Twilight Council | Bats | 20 |
+| Twilight Council | Bats | 22 |
 | Knaves of the Deepwood | Skunks | 14 |
 
 ### Hirelings (8 boxes, white; each lid in the hireling's colour)

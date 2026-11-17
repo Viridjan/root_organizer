@@ -55,7 +55,7 @@ presets = [
     ["Lord_of_the_Hundreds", "Lord of the|Hundreds", "Rats", 4.5, 23],
     ["Keepers_in_Iron", "Keepers in Iron", "Badgers", 2, 18.5],
     ["Lilypad_Diaspora", "Lilypad Diaspora", "Frogs", 9.2, 19],
-    ["Twilight_Council", "Twilight Council", "Bats", 0.7, 20],
+    ["Twilight_Council", "Twilight Council", "Bats", 0.7, 22],
     ["Knaves_of_the_Deepwood", "Knaves of the|Deepwood", "Skunks", 8.5, 14],
     ["Landmarks", "Landmarks", "Landmarks", 5.5, 20],
 ];
