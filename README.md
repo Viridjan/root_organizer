@@ -87,6 +87,7 @@ flatpak run --command=bambu-studio com.bambulab.BambuStudio --arrange 0 --orient
 ## Used with
 
 - [Root the Board Game: Token Capsule](https://makerworld.com/en/models/579471-root-the-board-game-token-capsule#profileId-500269) (MakerWorld): the token capsules used in this organizer. They are a separate model and not part of this repository.
+- [Root: Multi-Color Clearing Markers](https://makerworld.com/en/models/30397-root-multi-color-clearing-markers#profileId-49054) (MakerWorld): the clearing markers used in this organizer. They are a separate model and not part of this repository.
 
 ## License
 
