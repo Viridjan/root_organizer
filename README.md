@@ -68,7 +68,7 @@ Six boxes hold two hirelings each, one per compartment, and each compartment has
 
 | File | What it is |
 |---|---|
-| `single.sc`, `single_thin.sc`, `nocard.sc`, `split.sc`, `split_thin.sc` | Parametric [SolidCraft](https://getartcraft.com) designs, one configuration row per box: faction and card boxes; a shallow card box (template, no Root box uses it); plain boxes; two-compartment boxes; the shallow Highway Bandits + Warm Sun Prophets box (one-line top label) |
+| `single.sc`, `single_thin.sc`, `nocard.sc`, `split.sc`, `split_thin.sc` | Parametric [SolidCraft](https://github.com/tangency-labs/solidcraft) designs, one configuration row per box: faction and card boxes; a shallow card box (template, no Root box uses it); plain boxes; two-compartment boxes; the shallow Highway Bandits + Warm Sun Prophets box (one-line top label) |
 | `wide.sc` | The double-width Hirelings Cards box (one box, no configuration table) |
 | `double.sc` | The two Vagabond boxes joined by one shared lid |
 | `makerworld/` | OpenSCAD versions for MakerWorld's customizer, one per design (see `makerworld/README.md`) |
