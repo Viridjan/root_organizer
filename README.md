@@ -40,7 +40,7 @@ Six boxes hold two hirelings each, one per compartment, and each compartment has
 | Last Dynasty + Prosperous Farmers | Ducks / Eagles | 18.5 |
 | Flame Bearers + Forest Patrol | Cats / Rats | 18.5 |
 | Spring Uprising + Sunward Expedition | Moles / Rabbits | 18.5 |
-| Highway Bandits + Warm Sun Prophets | Lizards / Porcupines | 17 |
+| Highway Bandits + Warm Sun Prophets | Lizards / Porcupines (one line, 4.3 mm) | 10 |
 | Popular Band + Vault Keepers | Badgers / Weasels | 18.5 |
 | Singletons | Singletons | 10 |
 | River Roamers (half width, 35.75 mm) | Frogs | 19.5 |
@@ -61,7 +61,7 @@ Six boxes hold two hirelings each, one per compartment, and each compartment has
 - **Card pockets.** Faction card pockets are 67 × 91.5 mm, for standard Root cards (63.5 × 88 mm) in Popcorn Games hard sleeves (63.5 × 88 size); card stack thicknesses (`card_stack_thickness`) were measured with the sleeves on. The hireling card pocket is 124 × 73 mm, for the large hireling cards (unsleeved). A U-shaped thumb cutout in the lid lets you pull the cards out.
 - **Walls 1.5 mm** (two and a half 0.6 mm extrusion lines), so the walls stay stiff.
 - **Sliding lid.** The lid slides in a 60° dovetail groove. It has 0.2 mm clearance per side (0.25 mm on the two-compartment boxes), so it slides on a 0.6 mm nozzle print without being loose. A small click detent holds it shut: a 0.4 mm bump on each dovetail edge of the lid, 5 mm below its top, snaps into a matching dip in the groove, and only rubs over the last 5 mm of travel. Small "wings" at the bottom of the groove stop the lid and keep it flush with the base.
-- **Text.** DejaVu Sans Bold, 6 mm capital height, engraved 0.5 mm deep. Regular-weight strokes would be thinner than the 0.6 mm nozzle. Every label is the same 6 mm height, the largest that fits on every box (the limit is the two-line Knaves label on its 18 mm end); long names are split over two lines (Lord of the / Hundreds, Knaves of the / Deepwood).
+- **Text.** DejaVu Sans Bold, 6 mm capital height, engraved 0.5 mm deep. Regular-weight strokes would be thinner than the 0.6 mm nozzle. Every label is the same 6 mm height (except the one-line 4.3 mm top label of the shallow Highway Bandits + Warm Sun Prophets box), the largest that fits on every box (the limit is the two-line Knaves label on its 18 mm end); long names are split over two lines (Lord of the / Hundreds, Knaves of the / Deepwood).
 - **1 mm 45° chamfers** on the outer edges, including the full bottom edge, so the edges are not sharp and the lid groove ends cleanly.
 
 ## Files
