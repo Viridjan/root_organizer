@@ -14,7 +14,7 @@ PLATE_GAP = 0.2      # BambuStudio LOGICAL_PART_PLATE_GAP: plate stride = BED * 
 LID_LABELS = {"dice_tokens": ["Dice", "Tokens"]}  # lid i+1 > 1 comes from NN_<key>_lid<i+1>.3mf
 LIDS = {"dice_tokens": 2, "hirelings_2": 2, "hirelings_3": 3}  # one lid per compartment
 # Plates are per colour (any container type); TYPES only lists what is printed (hirelings 2/3: leftovers).
-# Hireling "a__b" keys: two hirelings in one faction-width box (slit.sc rows "A + B"; Last Dynasty 1/3 + Prosperous Farmers 2/3),
+# Hireling "a__b" keys: two hirelings in one faction-width box (split.sc rows "A + B"; Last Dynasty 1/3 + Prosperous Farmers 2/3),
 # lid 1 = a, lid 2 = b from NN_a__b_lid2.3mf; pairs chosen for contrasting, non-repeating lid colours.
 TYPES = {
     "general": ["clearings", "landmarks", "dice_tokens", "hirelings_cards"],  # dice, tokens: not printed (dice_tokens holds both)

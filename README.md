@@ -6,7 +6,7 @@ Printed on a Bambu Lab A1 with a 0.6 mm nozzle in PLA.
 
 ## What is in the box
 
-Every box is 100 mm tall. The standard box is 73 mm wide; its depth depends on its contents. Depths below are the **inside** depth of the wood pocket (the space for the pieces); the box is 4 mm deeper outside (1.5 mm back wall + 2.5 mm lid).
+Every box is 100 mm tall. The standard box is 71.5 mm wide; its depth depends on its contents. Depths below are the **inside** depth of the wood pocket (the space for the pieces); the box is 4 mm deeper outside (1.5 mm back wall + 2.5 mm lid).
 
 Faction and hireling boxes have the animal on top (species from [The Root Database](https://www.therootdatabase.com/)).
 
@@ -43,7 +43,7 @@ Six boxes hold two hirelings each, one per compartment, and each compartment has
 | Highway Bandits + Warm Sun Prophets | Lizards / Porcupines | 17 |
 | Popular Band + Vault Keepers | Badgers / Weasels | 20 |
 | Singletons | Singletons | 10 |
-| Forest Patrol (half width, 36.5 mm) | Cats | 20 |
+| Forest Patrol (half width, 35.75 mm) | Cats | 20 |
 
 ### General (4 boxes, black)
 
@@ -52,15 +52,15 @@ Six boxes hold two hirelings each, one per compartment, and each compartment has
 | Clearings | 3D-printed clearing pieces |
 | Landmarks | landmark pieces and cards |
 | Map Tokens & Dice | two compartments, 22.5 mm inside (fits the 22 mm dice): dice (Dice lid) and map tokens (Tokens lid) |
-| Hirelings Cards | hireling cards (146 mm wide, double width) |
+| Hirelings Cards | hireling cards (143 mm wide, double width) |
 
 ## Why these sizes
 
-- **73 × 100 mm footprint.** Three standard boxes side by side make 219 mm. The 100 mm height is inherited from the original FreeCAD design (which had 70 mm wide boxes). Hirelings Cards is double width (146 mm), and Forest Patrol is half width.
+- **71.5 × 100 mm footprint.** Three standard boxes side by side make 214.5 mm. The 100 mm height is inherited from the original FreeCAD design (which had 70 mm wide boxes). Hirelings Cards is double width (143 mm), and Forest Patrol is half width.
 - **Depth per box.** The wood pocket depth (`wood_depth`) is the depth of the faction's pieces lying flat. The box adds a 1.5 mm back wall and the 2.5 mm lid, plus the card stack and its walls on boxes with a card pocket, so each box is only as deep as its contents need.
 - **Card pockets.** Faction card pockets are 67 × 91.5 mm, for standard Root cards (63.5 × 88 mm) in Popcorn Games hard sleeves (63.5 × 88 size); card stack thicknesses (`card_stack_thickness`) were measured with the sleeves on. The hireling card pocket is 124 × 73 mm, for the large hireling cards (unsleeved). A U-shaped thumb cutout in the lid lets you pull the cards out.
 - **Walls 1.5 mm** (two and a half 0.6 mm extrusion lines), so the walls stay stiff.
-- **Sliding lid.** The lid slides in a 60° dovetail groove. It has 0.25 mm clearance per side, so it slides on a 0.6 mm nozzle print without being loose. Small "wings" at the bottom of the groove stop the lid and keep it flush with the base.
+- **Sliding lid.** The lid slides in a 60° dovetail groove. It has 0.2 mm clearance per side (0.25 mm on the two-compartment boxes), so it slides on a 0.6 mm nozzle print without being loose. A small click detent holds it shut: a 0.4 mm bump on each dovetail edge of the lid, 5 mm below its top, snaps into a matching dip in the groove, and only rubs over the last 5 mm of travel. Small "wings" at the bottom of the groove stop the lid and keep it flush with the base.
 - **Text.** DejaVu Sans Bold, 6 mm capital height, engraved 0.5 mm deep. Regular-weight strokes would be thinner than the 0.6 mm nozzle. Every label is the same 6 mm height, the largest that fits on every box (the limit is the two-line Knaves label on its 18 mm end); long names are split over two lines (Lord of the / Hundreds, Knaves of the / Deepwood).
 - **1 mm 45° chamfers** on the outer edges, including the full bottom edge, so the edges are not sharp and the lid groove ends cleanly.
 
@@ -68,7 +68,7 @@ Six boxes hold two hirelings each, one per compartment, and each compartment has
 
 | File | What it is |
 |---|---|
-| `single.sc`, `nocard.sc`, `slit.sc` | Parametric [SolidCraft](https://getartcraft.com) designs, one configuration row per box: faction and card boxes; plain boxes; two-compartment boxes |
+| `single.sc`, `nocard.sc`, `split.sc` | Parametric [SolidCraft](https://getartcraft.com) designs, one configuration row per box: faction and card boxes; plain boxes; two-compartment boxes |
 | `wide.sc` | The double-width Hirelings Cards box (one box, no configuration table) |
 | `double.sc` | The two Vagabond boxes joined by one shared lid |
 | `supersketch.FCStd` | The original FreeCAD design |
