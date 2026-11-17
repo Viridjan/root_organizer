@@ -5,7 +5,7 @@
 
 /* [Preset] */
 // A Root faction, or Custom to use the values below
-preset = "Custom"; // [Custom, Marquise de Cat, Eyrie Dynasties, Woodland Alliance, Riverfolk Company, Lizard Cult, Underground Duchy, Corvid Conspiracy, Lord of the Hundreds, Keepers in Iron, Lilypad Diaspora, Twilight Council, Knaves of the Deepwood, Landmarks]
+preset = "Custom"; // [Custom, Marquise_de_Cat, Eyrie_Dynasties, Woodland_Alliance, Riverfolk_Company, Lizard_Cult, Underground_Duchy, Corvid_Conspiracy, Lord_of_the_Hundreds, Keepers_in_Iron, Lilypad_Diaspora, Twilight_Council, Knaves_of_the_Deepwood, Landmarks]
 
 /* [Box] */
 // Inside depth of the pocket for the wooden pieces (mm)
@@ -45,18 +45,18 @@ part = "all"; // [all, box, lid]
 /* [Hidden] */
 // name, side label, top label, card stack, wood depth
 presets = [
-    ["Marquise de Cat", "Marquise de Cat", "Cats", 0.7, 23],
-    ["Eyrie Dynasties", "Eyrie Dynasties", "Eagles", 3.5, 16.5],
-    ["Woodland Alliance", "Woodland Alliance", "Alliance", 0.7, 14],
-    ["Riverfolk Company", "Riverfolk Company", "Otters", 0.7, 11.5],
-    ["Lizard Cult", "Lizard Cult", "Lizards", 0.7, 20.5],
-    ["Underground Duchy", "Underground Duchy", "Moles", 5.2, 19.5],
-    ["Corvid Conspiracy", "Corvid Conspiracy", "Corvids", 0.7, 14],
-    ["Lord of the Hundreds", "Lord of the|Hundreds", "Rats", 4.5, 23],
-    ["Keepers in Iron", "Keepers in Iron", "Badgers", 2, 18.5],
-    ["Lilypad Diaspora", "Lilypad Diaspora", "Frogs", 9.2, 19],
-    ["Twilight Council", "Twilight Council", "Bats", 0.7, 20],
-    ["Knaves of the Deepwood", "Knaves of the|Deepwood", "Skunks", 8.5, 14],
+    ["Marquise_de_Cat", "Marquise de Cat", "Cats", 0.7, 23],
+    ["Eyrie_Dynasties", "Eyrie Dynasties", "Eagles", 3.5, 16.5],
+    ["Woodland_Alliance", "Woodland Alliance", "Alliance", 0.7, 14],
+    ["Riverfolk_Company", "Riverfolk Company", "Otters", 0.7, 11.5],
+    ["Lizard_Cult", "Lizard Cult", "Lizards", 0.7, 20.5],
+    ["Underground_Duchy", "Underground Duchy", "Moles", 5.2, 19.5],
+    ["Corvid_Conspiracy", "Corvid Conspiracy", "Corvids", 0.7, 14],
+    ["Lord_of_the_Hundreds", "Lord of the|Hundreds", "Rats", 4.5, 23],
+    ["Keepers_in_Iron", "Keepers in Iron", "Badgers", 2, 18.5],
+    ["Lilypad_Diaspora", "Lilypad Diaspora", "Frogs", 9.2, 19],
+    ["Twilight_Council", "Twilight Council", "Bats", 0.7, 20],
+    ["Knaves_of_the_Deepwood", "Knaves of the|Deepwood", "Skunks", 8.5, 14],
     ["Landmarks", "Landmarks", "Landmarks", 5.5, 20],
 ];
 top_text_height = text_height;

@@ -4,7 +4,7 @@
 
 /* [Preset] */
 // A Root component box, or Custom to use the values below
-preset = "Custom"; // [Custom, Clearings, Singletons, River Roamers]
+preset = "Custom"; // [Custom, Clearings, Singletons, River_Roamers]
 
 /* [Box] */
 // Inside depth of the pocket (mm)
@@ -38,5 +38,5 @@ part = "all"; // [all, box, lid]
 presets = [
     ["Clearings", "Clearings", "Clearings", 71.5, 28.2],
     ["Singletons", "Singletons", "Singletons", 71.5, 10],
-    ["River Roamers", "River Roamers", "Frogs", 35.75, 19.5],
+    ["River_Roamers", "River Roamers", "Frogs", 35.75, 19.5],
 ];

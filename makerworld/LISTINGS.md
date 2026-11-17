@@ -4,7 +4,7 @@ Seven listings. Each one gets:
 
 - **Model file:** the `.scad` (enables *Customize*).
 - **Cover:** the render in `images/`. Add photos of your prints when you have them.
-- **Print profile:** the 3MF in `print_profiles/`, made from the Bambu project: A1, 0.6 mm nozzle, 0.30 mm Strength, PLA Basic, one colour per plate. `single_thin` has none, because no Root box uses it; its customizer output is the profile.
+- **Print profile:** the 3MF in `print_profiles/`, made from the Bambu project: A1, 0.6 mm nozzle, 0.30 mm Strength, PLA Basic, one colour per plate. Every listing has one, in case MakerWorld requires it for publishing; that requirement isn't confirmed.
 
 Shared fields:
 
@@ -68,7 +68,7 @@ The top label is the faction's animal (Cats, Eagles, Alliance, Otters…). The V
 - **Summary:** A shallow version of the faction box: card lid, click-shut sliding lid, and a smaller one-line top label that fits a thin box.
 - **Extra tags:** `thin`, `card box`, `card holder`
 - **Cover:** `images/single_thin.png`
-- **Print profile:** none, use Customize.
+- **Print profile:** `print_profiles/root_organizer_single_thin.3mf` (8 mm inside, "Thin Box")
 - **Description:**
 
 ```

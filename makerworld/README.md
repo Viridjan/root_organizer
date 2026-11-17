@@ -26,6 +26,13 @@ Don't edit the seven `.scad` files above: `python3 makerworld/build.py` writes t
 
 `LISTINGS.md` has the ready-to-paste text for each listing: title, summary, tags, description, category and license. `images/` holds a cover render for each listing, and `print_profiles/` a Bambu 3MF of each default box (see below to rebuild them).
 
+## MakerWorld quirks (checked 2026-11-17)
+
+- **Preset values:** dropdown values use underscores instead of spaces (`Marquise_de_Cat`). No source confirms that MakerWorld's parser handles spaces inside `// [...]` lists; underscores are safe and still readable. The labels themselves keep their spaces.
+- **Font:** MakerWorld's fonts are Google Fonts, and Noto Sans is one, but no font list I could read names it. If it's missing, OpenSCAD silently falls back to its default font: check the preview after uploading, and pick another font if it looks wrong.
+- **No `include`:** an `include` makes MakerWorld's parameters vanish. That's why `build.py` writes each file as one self-contained script.
+- **Print profile:** every listing has one in `print_profiles/` (Bambu Studio project 3MFs; generic 3MF exports are rejected). No source says whether MakerWorld requires one.
+
 ## Upload
 
 1. On MakerWorld, create a new model. Upload the `.scad` file instead of a 3MF; MakerWorld adds the Customize button.

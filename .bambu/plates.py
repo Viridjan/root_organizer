@@ -17,7 +17,8 @@ LIDS = {"dice_tokens": 2, "hirelings_2": 2, "hirelings_3": 3}  # one lid per com
 # Hireling "a__b" keys: two hirelings in one faction-width box (split.sc rows "A + B"; Last Dynasty 1/3 + Prosperous Farmers 2/3),
 # lid 1 = a, lid 2 = b from NN_a__b_lid2.3mf; pairs chosen for contrasting, non-repeating lid colours.
 TYPES = {
-    "general": ["clearings", "landmarks", "dice_tokens", "hirelings_cards"],  # dice, tokens: not printed (dice_tokens holds both)
+    "general": ["clearings", "landmarks", "dice_tokens", "hirelings_cards",
+                "single_thin"],  # dice, tokens: not printed (dice_tokens holds both); single_thin: MakerWorld print profile only, not in prints/
     "factions": ["corvid_conspiracy", "eyrie_dynasties", "keepers_in_iron", "knaves_of_the_deepwood", "lilypad_diaspora",
                  "lizard_cult", "lord_of_the_hundreds", "marquise_de_cat", "riverfolk_company", "twilight_council",
                  "underground_duchy", "vagabond_double", "woodland_alliance"],  # vagabond + vagabond_2: one double box (double.sc)
