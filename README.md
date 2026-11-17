@@ -49,8 +49,8 @@ Six boxes hold two hirelings each, one per compartment, and each compartment has
 
 | Box | Holds |
 |---|---|
-| Clearings | 3D-printed clearing pieces |
-| Landmarks | landmark pieces and cards |
+| Clearings | 3D-printed clearing pieces (28.2 mm inside) |
+| Landmarks | landmark pieces (20 mm inside) and cards |
 | Map Tokens & Dice | two compartments, 22.5 mm inside (fits the 22 mm dice): dice (Dice lid) and map tokens (Tokens lid) |
 | Hirelings Cards | hireling cards (143 mm wide, double width) |
 
