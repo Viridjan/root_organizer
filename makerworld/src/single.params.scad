@@ -59,3 +59,4 @@ presets = [
     ["Knaves of the Deepwood", "Knaves of the|Deepwood", "Skunks", 8.5, 14],
     ["Landmarks", "Landmarks", "Landmarks", 5.5, 20],
 ];
+top_text_height = text_height;

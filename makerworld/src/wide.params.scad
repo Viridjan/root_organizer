@@ -40,3 +40,4 @@ part = "all"; // [all, box, lid]
 /* [Hidden] */
 preset = "Custom";
 presets = [];
+top_text_height = text_height;
