@@ -29,15 +29,15 @@ NS = "http://schemas.microsoft.com/3dmanufacturing/core/2015/02"
 # Bambu PLA Basic colours. White: hireling boxes and Singletons lid; Black: general boxes and lids.
 FILAMENTS = {"White": "#FFFFFF", "Orange": "#FF6A13", "Blue": "#0A2989", "Cyan": "#0086D6", "Green": "#00AE42",
              "Bright Green": "#BECF00", "Purple": "#5E43B7", "Red": "#C12E1F", "Yellow": "#F4EE2A",
-             "Gray": "#8E9089", "Silver": "#A6A9AA", "Brown": "#9D432C", "Black": "#000000",
+             "Gray": "#8E9089", "Silver": "#A6A9AA", "Brown": "#9D432C", "Dark Gray": "#545454", "Black": "#000000",
              "Pink": "#F55A74", "Beige": "#F7E6DE"}
 # Official colours (therootdatabase.com/color/...). Factions: box + lid; hirelings: lid only.
 # Same-colour factions told apart: Riverfolk Cyan vs Eyrie Blue, Lilypad Bright Green vs Alliance Green,
-# Keepers Silver vs Vagabond Gray.
+# Keepers Silver vs Vagabond Gray vs Knaves Dark Gray.
 COLOURS = {"marquise_de_cat": "Orange", "eyrie_dynasties": "Blue", "riverfolk_company": "Cyan",
            "woodland_alliance": "Green", "lilypad_diaspora": "Bright Green", "corvid_conspiracy": "Purple",
            "lord_of_the_hundreds": "Red", "lizard_cult": "Yellow", "keepers_in_iron": "Silver",
-           "vagabond_double": "Gray", "twilight_council": "Brown", "knaves_of_the_deepwood": "Black",
+           "vagabond_double": "Gray", "twilight_council": "Brown", "knaves_of_the_deepwood": "Dark Gray",
            "underground_duchy": "Beige",
            "forest_patrol": "Orange", "last_dynasty": "Blue", "river_roamers": "Green", "spring_uprising": "Green",
            "corvid_spies": "Purple", "flame_bearers": "Red", "prosperous_farmers": "Yellow",
