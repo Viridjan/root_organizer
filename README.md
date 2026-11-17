@@ -84,6 +84,10 @@ python3 .bambu/plates.py prints out.3mf
 flatpak run --command=bambu-studio com.bambulab.BambuStudio --arrange 0 --orient 0 --export-3mf root_organizer_A1.3mf out.3mf
 ```
 
+## Used with
+
+- [Root the Board Game: Token Capsule](https://makerworld.com/en/models/579471-root-the-board-game-token-capsule#profileId-500269) (MakerWorld): the token capsules used in this organizer. They are a separate model and not part of this repository.
+
 ## License
 
 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) (full text in `LICENSE`). You may use, remix and share these files for non-commercial purposes, as long as you credit **Viridjan** (https://github.com/Viridjan/root_organizer) and say what you changed.
