@@ -22,8 +22,8 @@ TYPES = {
                  "lizard_cult", "lord_of_the_hundreds", "marquise_de_cat", "riverfolk_company", "twilight_council",
                  "underground_duchy", "vagabond_double", "woodland_alliance"],  # vagabond + vagabond_2: one double box (double.sc)
     "hireling": ["singletons", "corvid_spies__sunny_advocates", "last_dynasty__prosperous_farmers",
-                 "flame_bearers__river_roamers", "spring_uprising__sunward_expedition",
-                 "highway_bandits__warm_sun_prophets", "popular_band__vault_keepers", "forest_patrol"],
+                 "flame_bearers__forest_patrol", "spring_uprising__sunward_expedition",
+                 "highway_bandits__warm_sun_prophets", "popular_band__vault_keepers", "river_roamers"],
 }
 NS = "http://schemas.microsoft.com/3dmanufacturing/core/2015/02"
 # Bambu PLA Basic colours. White: hireling boxes and Singletons lid; Black: general boxes and lids.

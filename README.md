@@ -36,14 +36,14 @@ Six boxes hold two hirelings each, one per compartment, and each compartment has
 
 | Box | Top label | Inside depth (mm) |
 |---|---|---|
-| Corvid Spies + Sunny Advocates | Bats / Corvids | 20 |
-| Last Dynasty + Prosperous Farmers | Ducks / Eagles | 20 |
-| Flame Bearers + River Roamers | Frogs / Rats | 20 |
-| Spring Uprising + Sunward Expedition | Moles / Rabbits | 20 |
+| Corvid Spies + Sunny Advocates | Bats / Corvids | 18.5 |
+| Last Dynasty + Prosperous Farmers | Ducks / Eagles | 18.5 |
+| Flame Bearers + Forest Patrol | Cats / Rats | 18.5 |
+| Spring Uprising + Sunward Expedition | Moles / Rabbits | 18.5 |
 | Highway Bandits + Warm Sun Prophets | Lizards / Porcupines | 17 |
-| Popular Band + Vault Keepers | Badgers / Weasels | 20 |
+| Popular Band + Vault Keepers | Badgers / Weasels | 18.5 |
 | Singletons | Singletons | 10 |
-| Forest Patrol (half width, 35.75 mm) | Cats | 20 |
+| River Roamers (half width, 35.75 mm) | Frogs | 19.5 |
 
 ### General (4 boxes, black)
 
@@ -56,7 +56,7 @@ Six boxes hold two hirelings each, one per compartment, and each compartment has
 
 ## Why these sizes
 
-- **71.5 × 100 mm footprint.** Three standard boxes side by side make 214.5 mm. The 100 mm height is inherited from the original FreeCAD design (which had 70 mm wide boxes). Hirelings Cards is double width (143 mm), and Forest Patrol is half width.
+- **71.5 × 100 mm footprint.** Three standard boxes side by side make 214.5 mm. The 100 mm height is inherited from the original FreeCAD design (which had 70 mm wide boxes). Hirelings Cards is double width (143 mm), and River Roamers is half width.
 - **Depth per box.** The wood pocket depth (`wood_depth`) is the depth of the faction's pieces lying flat. The box adds a 1.5 mm back wall and the 2.5 mm lid, plus the card stack and its walls on boxes with a card pocket, so each box is only as deep as its contents need.
 - **Card pockets.** Faction card pockets are 67 × 91.5 mm, for standard Root cards (63.5 × 88 mm) in Popcorn Games hard sleeves (63.5 × 88 size); card stack thicknesses (`card_stack_thickness`) were measured with the sleeves on. The hireling card pocket is 124 × 73 mm, for the large hireling cards (unsleeved). A U-shaped thumb cutout in the lid lets you pull the cards out.
 - **Walls 1.5 mm** (two and a half 0.6 mm extrusion lines), so the walls stay stiff.

@@ -1,3 +1,3 @@
 # TODO
 
-- [ ] **Re-pair the hirelings by thickness.** The user will measure every hireling's pieces (thickness = inside depth they need). Then: pair hirelings so that each pair box fits both well (similar depth), set `wood_depth` per pair from the measurements instead of the 20 mm placeholder, and keep Last Dynasty + Prosperous Farmers (1/3 + 2/3) unless the numbers say otherwise. Pairs today (`slit.sc`): Corvid Spies + Sunny Advocates, Last Dynasty + Prosperous Farmers, Flame Bearers + River Roamers, Spring Uprising + Sunward Expedition, Highway Bandits + Warm Sun Prophets (17 mm: the user's 9 mm was raised so the two 6 mm top lines fit), Popular Band + Vault Keepers; Forest Patrol alone (`nocard.sc`, half width).
+Nothing open.
