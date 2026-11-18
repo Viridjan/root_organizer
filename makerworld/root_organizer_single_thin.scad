@@ -11,7 +11,7 @@ box_width = 71.5; // [50:0.5:160]
 
 /* [Cards] */
 // Thickness of the card stack (sleeved), mm
-card_stack_thickness = 0.7; // [0.5:0.1:20]
+card_stack_thickness = 0.8; // [0.5:0.1:20]
 // Card pocket width (card width + clearance), mm
 card_pocket_width = 67; // [40:0.5:150]
 // Card pocket height (card length + clearance), mm

@@ -9,13 +9,13 @@ preset = "Custom"; // [Custom, Marquise_de_Cat, Eyrie_Dynasties, Woodland_Allian
 
 /* [Box] */
 // Inside depth of the pocket for the wooden pieces (mm)
-wood_depth = 23; // [5:0.5:60]
+wood_depth = 25.5; // [5:0.5:60]
 // Box width (mm)
 box_width = 71.5; // [50:0.5:160]
 
 /* [Cards] */
 // Thickness of the card stack (sleeved), mm
-card_stack_thickness = 0.7; // [0.5:0.1:20]
+card_stack_thickness = 0.8; // [0.5:0.1:20]
 // Card pocket width (card width + clearance), mm
 card_pocket_width = 67; // [40:0.5:150]
 // Card pocket height (card length + clearance), mm
@@ -45,17 +45,17 @@ part = "all"; // [all, box, lid]
 /* [Hidden] */
 // name, side label, top label, card stack, wood depth
 presets = [
-    ["Marquise_de_Cat", "Marquise de Cat", "Cats", 0.7, 23],
+    ["Marquise_de_Cat", "Marquise de Cat", "Cats", 0.8, 25.5],
     ["Eyrie_Dynasties", "Eyrie Dynasties", "Eagles", 3.5, 16.5],
-    ["Woodland_Alliance", "Woodland Alliance", "Alliance", 0.7, 14],
-    ["Riverfolk_Company", "Riverfolk Company", "Otters", 0.7, 11.5],
-    ["Lizard_Cult", "Lizard Cult", "Lizards", 0.7, 20.5],
+    ["Woodland_Alliance", "Woodland Alliance", "Alliance", 0.8, 14],
+    ["Riverfolk_Company", "Riverfolk Company", "Otters", 0.8, 11.5],
+    ["Lizard_Cult", "Lizard Cult", "Lizards", 0.8, 20.5],
     ["Underground_Duchy", "Underground Duchy", "Moles", 5.2, 19.5],
-    ["Corvid_Conspiracy", "Corvid Conspiracy", "Corvids", 0.7, 14],
+    ["Corvid_Conspiracy", "Corvid Conspiracy", "Corvids", 0.8, 14],
     ["Lord_of_the_Hundreds", "Lord of the|Hundreds", "Rats", 4.5, 23],
     ["Keepers_in_Iron", "Keepers in Iron", "Badgers", 2, 18.5],
     ["Lilypad_Diaspora", "Lilypad Diaspora", "Frogs", 9.2, 19],
-    ["Twilight_Council", "Twilight Council", "Bats", 0.7, 22],
+    ["Twilight_Council", "Twilight Council", "Bats", 0.8, 22],
     ["Knaves_of_the_Deepwood", "Knaves of the|Deepwood", "Skunks", 8.5, 14],
     ["Landmarks", "Landmarks", "Landmarks", 5.5, 20],
 ];

@@ -55,7 +55,7 @@ Root is a trademark of Leder Games. This is an unofficial fan creation, not affi
 One box per faction: the wooden pieces go in the box, the faction's cards go in a pocket inside the sliding lid, with a U thumb cutout to pull them out.
 
 PRESETS (inside depth / card stack)
-Marquise de Cat 23 / 0.7 · Eyrie Dynasties 16.5 / 3.5 · Woodland Alliance 14 / 0.7 · Riverfolk Company 11.5 / 0.7 · Lizard Cult 20.5 / 0.7 · Underground Duchy 19.5 / 5.2 · Corvid Conspiracy 14 / 0.7 · Lord of the Hundreds 23 / 4.5 · Keepers in Iron 18.5 / 2 · Lilypad Diaspora 19 / 9.2 · Twilight Council 22 / 0.7 · Knaves of the Deepwood 14 / 8.5 · Landmarks 20 / 5.5 (mm)
+Marquise de Cat 25.5 / 0.8 · Eyrie Dynasties 16.5 / 3.5 · Woodland Alliance 14 / 0.8 · Riverfolk Company 11.5 / 0.8 · Lizard Cult 20.5 / 0.8 · Underground Duchy 19.5 / 5.2 · Corvid Conspiracy 14 / 0.8 · Lord of the Hundreds 23 / 4.5 · Keepers in Iron 18.5 / 2 · Lilypad Diaspora 19 / 9.2 · Twilight Council 22 / 0.8 · Knaves of the Deepwood 14 / 8.5 · Landmarks 20 / 5.5 (mm)
 
 The card pocket is 67 × 91.5 mm for standard cards (63.5 × 88 mm) in hard sleeves; card stack thicknesses were measured sleeved. Change them for your own sleeves.
 
