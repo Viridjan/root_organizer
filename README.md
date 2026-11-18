@@ -20,10 +20,16 @@ Printed on a Bambu Lab A1 with a 0.6 mm nozzle in PLA.
 
 ## Extra: frog clearing marker
 
-`markers/frog_marker.sc` is a clearing marker for the frogs (Lilypad Diaspora), in the style of the [clearing markers](https://makerworld.com/en/models/30397-root-multi-color-clearing-markers#profileId-49054) above. It goes on the same clearing edge, beside the original markers: it has the same wall bend, cross-section and height, but shorter arms (36.9 × 22.4 × 12.5 mm, against 45.7 × 27.2 × 12.5 mm). The wall and tower print in Bright Green; the bands and the raised frog head print in White.
+`markers/frog_marker.sc` is a clearing marker for the frogs (Lilypad Diaspora), in the style of the [clearing markers](https://makerworld.com/en/models/30397-root-multi-color-clearing-markers#profileId-49054) above. It has the same wall bend, cross-section and height as the originals, but shorter arms: 36.9 × 23.3 × 10.5 mm, against 45.7 × 27.2 × 12.5 mm. Like the frogs' cardboard token, it has two sides:
+
+- **Peaceful** (frog suit **added**: the clearing is double suited): calm frog face up. Put it beside the clearing's suit marker.
+- **Militant** (frog suit **replaces** the clearing's suit): flip it over (left to right) and set it on top of the suit marker's tower. The pocket in its top (the Peaceful side) fits over the fox, mouse or bunny head and covers it, and the angry frog face on its underside shows.
+
+The wall and tower print in Bright Green. The bands and both frog faces print in White, and the faces are flush inlays, so the marker lies flat either way up.
 
 - `markers/frog_marker.3mf`: the model, with two bodies: `Body` (green) and `Details` (white).
-- `markers/frog_marker_A1.3mf`: a Bambu Studio project with 4 markers on one plate (A1 0.6 mm nozzle).
+- `markers/frog_marker_A1.3mf`: a Bambu Studio project with 4 markers on one plate (A1, 0.6 mm nozzle).
+- `markers/frog_marker_peaceful.png`, `markers/frog_marker_militant.png`: renders of the two sides.
 
 ## What is in the box
 
