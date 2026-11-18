@@ -2,3 +2,4 @@
 .bambu/slice/
 .bambu/plates_raw.3mf
 result.json
+.~*.lock
