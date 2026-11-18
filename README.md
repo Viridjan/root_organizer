@@ -18,6 +18,13 @@ Printed on a Bambu Lab A1 with a 0.6 mm nozzle in PLA.
 - [Bambu Studio](https://bambulab.com/en/download/studio): the print project `root_organizer_A1.3mf`, built by a Python script (`.bambu/plates.py`).
 - [Claude Code](https://claude.com/claude-code) (Anthropic's Claude, an AI assistant): rebuilt the FreeCAD model in SolidCraft and wrote the OpenSCAD ports, the Python scripts and most of the documentation, following the author's design decisions and measurements.
 
+## Extra: frog clearing marker
+
+`markers/frog_marker.sc` is a clearing marker for the frogs (Lilypad Diaspora), in the style of the [clearing markers](https://makerworld.com/en/models/30397-root-multi-color-clearing-markers#profileId-49054) above. It goes on the same clearing edge, beside the original markers: it has the same wall bend, cross-section and height, but shorter arms (36.9 × 22.4 × 12.5 mm, against 45.7 × 27.2 × 12.5 mm). The wall and tower print in Bright Green; the bands and the raised frog head print in White.
+
+- `markers/frog_marker.3mf`: the model, with two bodies: `Body` (green) and `Details` (white).
+- `markers/frog_marker_A1.3mf`: a Bambu Studio project with 4 markers on one plate (A1 0.6 mm nozzle).
+
 ## What is in the box
 
 Every box is 100 mm tall. The standard box is 71.5 mm wide; its depth depends on its contents. Depths below are the **inside** depth of the wood pocket (the space for the pieces); the box is 4 mm deeper outside (1.5 mm back wall + 2.5 mm lid).
