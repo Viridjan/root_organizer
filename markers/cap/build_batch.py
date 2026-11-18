@@ -61,6 +61,12 @@ sk("OuterSketch",O.difference(P)); ex("Course1","OuterSketch",0,course,"new",bod
 sk("GrooveSketch",Oin.difference(P)); ex("Groove","GrooveSketch",course,groove,"join",["Body"])
 ex("Course2","OuterSketch",course+groove,course,"join",["Body"])
 sk("TowerSketch",T); ex("Tower","TowerSketch",wall_top,groove,"join",["Body"])
+# tower ledges like the originals' (plinth, middle ledge, cornice, 0.98 mm proud); side faces only, the back stays flush at back_y
+tx0,ty0=T.bounds[2],T.bounds[1]; lp=0.98
+L2=unary_union([box(sx*tx0-(lp if sx<0 else 0),ty0-0.2,sx*tx0+(lp if sx>0 else 0),back_y) for sx in (1,-1)])
+sk("LedgeSketch",L2)
+for name,z0,h in (("Plinth",0,1.4),("MidLedge",course+groove/2-0.5,1.0),("Cornice",tower_top-1.34,1.34)):
+    ex(name,"LedgeSketch",z0,h,"join",["Body"])
 sk("CavitySketch",C); ex("Cavity","CavitySketch",0,ceiling,"cut",["Body"])
 sk("HeadPocketSketch",Hp); ex("HeadPocket","HeadPocketSketch",ceiling,head_h+0.3,"cut",["Body"])
 sk("PostSketch",P); ex("Posts","PostSketch",0,tower_top,"new",body="Details")

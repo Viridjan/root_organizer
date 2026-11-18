@@ -25,7 +25,7 @@ Printed on a Bambu Lab A1 with a 0.6 mm nozzle in PLA.
 - **Peaceful** (frog suit **added**: the clearing is double suited): put it beside the clearing's suit marker.
 - **Militant** (frog suit **replaces** the clearing's suit): stack it on the suit marker. Its bottom brick course is hollow (0.3 mm clearance) and slips over the original's top course, tower and bands; a pocket above grips the fox, mouse or bunny head. The original's arms run out through the open arm ends.
 
-The wall and tower print in Bright Green. White, as on the originals: the three bands (one over each bend, one from the middle of the inner face to the tower) and the raised frog head.
+The wall and tower print in Bright Green; the tower sides carry the originals' ledges (a plinth, a middle ledge and a cornice, 1 mm proud). White, as on the originals: the three bands (one over each bend, one from the middle of the inner face to the tower) and the raised frog head.
 
 - `markers/frog_marker.3mf`: the model, with two bodies: `Body` (green) and `Details` (white).
 - `markers/frog_marker_A1.3mf`: a Bambu Studio project with 4 markers on one plate (A1, 0.6 mm nozzle).
