@@ -10,6 +10,14 @@ Printed on a Bambu Lab A1 with a 0.6 mm nozzle in PLA.
 - [Root: Multi-Color Clearing Markers](https://makerworld.com/en/models/30397-root-multi-color-clearing-markers#profileId-49054) (MakerWorld): the clearing markers used in this organizer. They are a separate model and not part of this repository.
 - [Root: Crafted Items Tray](https://makerworld.com/en/models/1779802-root-crafted-items-tray#profileId-2991766) (MakerWorld): the crafted items tray used in this organizer. It is a separate model and not part of this repository.
 
+## Made with
+
+- [FreeCAD](https://www.freecad.org/): the original parametric model (`supersketch.FCStd`).
+- [SolidCraft](https://github.com/tangency-labs/solidcraft): the current parametric designs (`.sc` files) and the 3MF exports in `prints/`.
+- [OpenSCAD](https://openscad.org/): the MakerWorld customizer versions in `makerworld/`.
+- [Bambu Studio](https://bambulab.com/en/download/studio): the print project `root_organizer_A1.3mf`, built by a Python script (`.bambu/plates.py`).
+- [Claude Code](https://claude.com/claude-code) (Anthropic's Claude, an AI assistant): rebuilt the FreeCAD model in SolidCraft and wrote the OpenSCAD ports, the Python scripts and most of the documentation, following the author's design decisions and measurements.
+
 ## What is in the box
 
 Every box is 100 mm tall. The standard box is 71.5 mm wide; its depth depends on its contents. Depths below are the **inside** depth of the wood pocket (the space for the pieces); the box is 4 mm deeper outside (1.5 mm back wall + 2.5 mm lid).
