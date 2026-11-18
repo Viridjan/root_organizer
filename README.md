@@ -72,7 +72,7 @@ Six boxes hold two hirelings each, one per compartment, and each compartment has
 | Singletons | Singletons | 10 |
 | River Roamers (half width, 35.75 mm) | Frogs | 19.5 |
 
-### General (4 boxes, black)
+### General (7 boxes, black)
 
 | Box | Holds |
 |---|---|
@@ -80,6 +80,11 @@ Six boxes hold two hirelings each, one per compartment, and each compartment has
 | Landmarks | landmark pieces (20 mm inside) and cards |
 | Map Tokens & Dice | two compartments, 22.5 mm inside (fits the 22 mm dice): dice (Dice lid) and map tokens (Tokens lid) |
 | Hirelings Cards | hireling cards (143 mm wide, double width) |
+| Standard Deck | the shared deck (34 mm stack) |
+| Exiles and Partisans | the Exiles and Partisans deck (26.5 mm stack) |
+| Squires and Disciples | the Squires and Disciples deck (30.5 mm stack) |
+
+The three deck boxes are one piece each, open at the top and symmetric front to back: 1.5 mm walls, a 67 × 91.5 mm card pocket, a U thumb cutout in both faces, 71.5 × (stack + 3 mm) × 100 mm, the label on all four sides. Stack thicknesses are from the original FreeCAD sheet.
 
 ## Why these sizes
 
@@ -96,13 +101,14 @@ Six boxes hold two hirelings each, one per compartment, and each compartment has
 | File | What it is |
 |---|---|
 | `single.sc`, `single_thin.sc`, `nocard.sc`, `split.sc`, `split_thin.sc` | Parametric [SolidCraft](https://github.com/tangency-labs/solidcraft) designs, one configuration row per box: faction and card boxes; a shallow card box (template, no Root box uses it); plain boxes; two-compartment boxes; the shallow Highway Bandits + Warm Sun Prophets box (one-line top label) |
+| `deck.sc` | The three deck boxes (one piece, open top, no lid) |
 | `wide.sc` | The double-width Hirelings Cards box (one box, no configuration table) |
 | `double.sc` | The two Vagabond boxes joined by one shared lid |
 | `makerworld/` | OpenSCAD versions for MakerWorld's customizer, one per design (see `makerworld/README.md`) |
 | `supersketch.FCStd` | The original FreeCAD design |
 | `prints/` | One 3MF per box (box + lid), exported from the SolidCraft designs |
 | `.bambu/plates.py` | Builds the Bambu Studio project from `prints/`: one plate per filament colour, with parts spread evenly |
-| `root_organizer_A1.3mf` | Ready-to-print Bambu Studio project (A1, 0.6 mm nozzle, 0.30 mm layers, PLA Basic): 18 plates |
+| `root_organizer_A1.3mf` | Ready-to-print Bambu Studio project (A1, 0.6 mm nozzle, 0.30 mm layers, PLA Basic): 19 plates |
 
 To rebuild the Bambu project after re-exporting boxes:
 

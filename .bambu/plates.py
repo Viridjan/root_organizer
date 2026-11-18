@@ -18,6 +18,7 @@ LIDS = {"dice_tokens": 2, "hirelings_2": 2, "hirelings_3": 3}  # one lid per com
 # lid 1 = a, lid 2 = b from NN_a__b_lid2.3mf; pairs chosen for contrasting, non-repeating lid colours.
 TYPES = {
     "general": ["clearings", "landmarks", "dice_tokens", "hirelings_cards",
+                "standard_deck", "exiles_and_partisans", "squires_and_disciples",  # deck.sc: one piece (body Box)
                 "single_thin"],  # dice, tokens: not printed (dice_tokens holds both); single_thin: MakerWorld print profile only, not in prints/
     "factions": ["corvid_conspiracy", "eyrie_dynasties", "keepers_in_iron", "knaves_of_the_deepwood", "lilypad_diaspora",
                  "lizard_cult", "lord_of_the_hundreds", "marquise_de_cat", "riverfolk_company", "twilight_council",
@@ -245,7 +246,7 @@ def main(src, out):
         box_names = sorted(n for n in parts if n.startswith("Box"))  # vagabond_double has two: Box, Box (2)
         boxes = [{"name": f"{title} - box" + (f" {i + 1}" if len(box_names) > 1 else ""),
                   **dict(zip(("vs", "ts", "size"), parts[n]))} for i, n in enumerate(box_names)]
-        n = LIDS.get(key, 1)
+        n = LIDS.get(key, 1) if "Lid" in parts else 0   # deck boxes: one piece, no lid
         lids = [{"name": f"{title} - lid" + (f" {i + 1}" if n > 1 else ""),
                  **dict(zip(("vs", "ts", "size"), parts["Lid"]))} for i in range(n)]
         for i, label in enumerate(LID_LABELS.get(key, [])):
