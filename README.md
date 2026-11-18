@@ -8,6 +8,7 @@ Printed on a Bambu Lab A1 with a 0.6 mm nozzle in PLA.
 
 - [Root the Board Game: Token Capsule](https://makerworld.com/en/models/579471-root-the-board-game-token-capsule#profileId-500269) (MakerWorld): the token capsules used in this organizer. They are a separate model and not part of this repository.
 - [Root: Multi-Color Clearing Markers](https://makerworld.com/en/models/30397-root-multi-color-clearing-markers#profileId-49054) (MakerWorld): the clearing markers used in this organizer. They are a separate model and not part of this repository.
+- [Root: Crafted Items Tray](https://makerworld.com/en/models/1779802-root-crafted-items-tray#profileId-2991766) (MakerWorld): the crafted items tray used in this organizer. It is a separate model and not part of this repository.
 
 ## What is in the box
 
