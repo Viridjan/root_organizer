@@ -1,6 +1,6 @@
 # MakerWorld listings: ready-to-paste texts
 
-Seven listings. Each one gets:
+Eight listings. Each one gets:
 
 - **Model file:** the `.scad` (enables *Customize*).
 - **Cover:** the render in `images/`. Add photos of your prints when you have them.
@@ -154,4 +154,22 @@ Default: Highway Bandits + Warm Sun Prophets, 10 mm inside, 14 mm outside.
 The two Vagabond boxes slide onto one shared lid: it has a dovetail tongue on each face and a card pocket between them for both Vagabonds' cards (15.7 mm stack), with finger notches at both ends. Each box clicks onto its side of the lid.
 
 Box 1 is 23.5 mm deep inside, box 2 13.5 mm; together with the lid the set is 63.7 mm deep. All depths, the card stack and the labels are adjustable.
+```
+
+## 8. `root_organizer_deck.scad` (deck box)
+
+- **Title:** Root Organizer – Deck Box (Customizable)
+- **Summary:** A one-piece box for a Root deck: open top, a thumb cutout in both faces, the name on all four sides. Presets for the shared deck, Exiles and Partisans, and Squires and Disciples.
+- **Extra tags:** `deck box`, `card box`, `card holder`, `sleeved cards`
+- **Cover:** `images/deck.png`
+- **Print profile:** `print_profiles/root_organizer_deck.3mf` (Standard Deck)
+- **Description:**
+
+```
+A one-piece box for a deck of cards, no lid: the cards stand in a 67 × 91.5 mm pocket, open at the top, with a U thumb cutout in both faces. The label is engraved on all four sides, so you can read it however the box stands.
+
+PRESETS (card stack)
+Standard Deck 34 · Exiles and Partisans 26.5 · Squires and Disciples 30.5 (mm, sleeved)
+
+The box is the card stack + 3 mm deep (1.5 mm walls). Print it standing upright, open end up; no supports.
 ```

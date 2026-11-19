@@ -166,7 +166,7 @@ def deal(parts, cap):
 
 def pack(groups):
     """One colour per plate, parts dealt out evenly (deal). Colours in LIDS_ONE_PLATE: all lids on
-    one plate, the boxes dealt out on their own.
+    one plate, the boxes lying flat on their own plates, the upright (deck) boxes on theirs.
     groups: [(colour, parts)]. Returns ([[(part, x, y)]], [colour per plate])."""
     by_colour = {}
     for c, parts in groups:
@@ -175,8 +175,12 @@ def pack(groups):
     for c, parts in by_colour.items():
         if c in LIDS_ONE_PLATE:
             lids = [p for p in parts if " - lid" in p["name"]]
-            placed = deal([p for p in parts if p not in lids], MAX_PARTS) + deal(lids, len(lids))
-            assert len(placed[-1]) == len(lids), f"{c}: lids do not fit on one plate"
+            upright = [p for p in parts if p not in lids and p["size"][2] > 50]   # deck boxes
+            flat = [p for p in parts if p not in lids and p not in upright]
+            placed = [pl for g in (flat, upright) if g for pl in deal(g, MAX_PARTS)]
+            if lids:
+                placed += deal(lids, len(lids))
+                assert len(placed[-1]) == len(lids), f"{c}: lids do not fit on one plate"
         else:
             placed = deal(parts, MAX_PARTS)
         plates += placed
