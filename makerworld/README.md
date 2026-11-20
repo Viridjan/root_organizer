@@ -4,14 +4,14 @@ OpenSCAD ports of the SolidCraft designs, one file per MakerWorld listing. Each 
 
 | File | Listing | Ported from |
 |---|---|---|
-| `root_organizer_single.scad` | Faction box with card lid (presets: the 12 factions + Landmarks) | `single.sc` |
-| `root_organizer_single_thin.scad` | Shallow card box, one-line smaller top label (template) | `single_thin.sc` |
-| `root_organizer_wide.scad` | Double-width card box (Hirelings cards) | `wide.sc` |
-| `root_organizer_nocard.scad` | Plain box (presets: Clearings, Singletons, River Roamers) | `nocard.sc` |
-| `root_organizer_split.scad` | Two-compartment box, two lids (presets: Dice + Map Tokens, 5 hireling pairs) | `split.sc` |
-| `root_organizer_split_thin.scad` | Shallow two-compartment box, one-line top label (default: Highway Bandits + Warm Sun Prophets) | `split_thin.sc` |
-| `root_organizer_double.scad` | Vagabond double box (two boxes, one shared lid) | `double.sc` |
-| `root_organizer_deck.scad` | Deck box, one piece, no lid (presets: Standard Deck, Exiles and Partisans, Squires and Disciples) | `deck.sc` |
+| `root_organizer_single.scad` | Faction box: wooden pieces in the box, the faction's cards in the lid (presets: the 12 factions + Landmarks) | `single.sc` |
+| `root_organizer_single_thin.scad` | Shallow faction box, smaller one-line top label (template, no preset) | `single_thin.sc` |
+| `root_organizer_wide.scad` | Double-width box: hireling cards in the lid, tokens in the box | `wide.sc` |
+| `root_organizer_nocard.scad` | Box without cards, for pieces or tokens (presets: Clearings, Singletons, River Roamers) | `nocard.sc` |
+| `root_organizer_split.scad` | Two-compartment box, one lid per compartment: two hirelings' pieces, or dice + map tokens (presets: Dice + Map Tokens, 5 hireling pairs) | `split.sc` |
+| `root_organizer_split_thin.scad` | Shallow two-compartment box, smaller one-line top label (default: Highway Bandits + Warm Sun Prophets) | `split_thin.sc` |
+| `root_organizer_double.scad` | Vagabond box: two boxes (Vagabond and Vagabond 2) sharing one lid that holds both card stacks | `double.sc` |
+| `root_organizer_deck.scad` | Deck box for a card deck: one piece, open top, no lid (presets: Standard Deck, Exiles and Partisans, Squires and Disciples) | `deck.sc` |
 
 The geometry matches the SolidCraft prints: volumes are within 0.2 % of `prints/`, and the only difference is the font.
 

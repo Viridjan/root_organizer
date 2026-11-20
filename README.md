@@ -100,10 +100,14 @@ The three deck boxes are one piece each, open at the top and symmetric front to 
 
 | File | What it is |
 |---|---|
-| `single.sc`, `single_thin.sc`, `nocard.sc`, `split.sc`, `split_thin.sc` | Parametric [SolidCraft](https://github.com/tangency-labs/solidcraft) designs, one configuration row per box: faction and card boxes; a shallow card box (template, no Root box uses it); plain boxes; two-compartment boxes; the shallow Highway Bandits + Warm Sun Prophets box (one-line top label) |
-| `deck.sc` | The three deck boxes (one piece, open top, no lid) |
-| `wide.sc` | The double-width Hirelings Cards box (one box, no configuration table) |
-| `double.sc` | The two Vagabond boxes joined by one shared lid |
+| `single.sc` | Faction boxes: wooden pieces in the box, the faction's cards in the lid (the 12 factions, plus Landmarks: landmark pieces and cards) |
+| `single_thin.sc` | A shallow version of the faction box, as a template: no Root box uses it |
+| `nocard.sc` | Boxes without cards: Clearings, Singletons, River Roamers |
+| `split.sc` | Two-compartment boxes with one lid per compartment: Map Tokens & Dice, and the hireling pairs (one hireling's pieces per compartment) |
+| `split_thin.sc` | The shallow two-compartment box for Highway Bandits + Warm Sun Prophets |
+| `wide.sc` | The double-width Hirelings Cards box: hireling cards in the lid, tokens in the box |
+| `double.sc` | The Vagabond box: two boxes (Vagabond and Vagabond 2) sharing one lid that holds both card stacks |
+| `deck.sc` | Deck boxes for the card decks (Standard Deck, Exiles and Partisans, Squires and Disciples): one piece, open top, no lid |
 | `makerworld/` | OpenSCAD versions for MakerWorld's customizer, one per design (see `makerworld/README.md`) |
 | `supersketch.FCStd` | The original FreeCAD design |
 | `prints/` | One 3MF per box (box + lid), exported from the SolidCraft designs |
