@@ -20,12 +20,12 @@ Printed on a Bambu Lab A1 with a 0.6 mm nozzle in PLA.
 
 ## Extra: frog clearing marker
 
-`markers/frog_marker.sc` is a clearing marker for the frogs (Lilypad Diaspora), in the style of the [clearing markers](https://makerworld.com/en/models/30397-root-multi-color-clearing-markers#profileId-49054) above. Its outline follows the originals' wall, bends and tower, grown by a 1.8 mm skirt (the tower back is flush with the original's), with shorter arms; it is 2 brick courses tall instead of 3: 39.0 × 24.9 × 8.4 mm, against 45.7 × 27.2 × 12.5 mm. Like the frogs' pond token, it has two uses:
+`markers/frog_marker.sc` is a clearing marker for the frogs (Lilypad Diaspora), in the style of the [clearing markers](https://makerworld.com/en/models/30397-root-multi-color-clearing-markers#profileId-49054) above. Its outline follows the originals' wall, bends and tower, grown by a 1.8 mm skirt (the tower back is flush with the original's), with shorter arms; it is 2 brick courses tall instead of 3: 39.5 × 24.9 × 8.4 mm, against 45.7 × 27.2 × 12.5 mm. Like the frogs' pond token, it has two uses:
 
 - **Peaceful** (frog suit **added**: the clearing is double suited): put it beside the clearing's suit marker.
 - **Militant** (frog suit **replaces** the clearing's suit): stack it on the suit marker. Its bottom brick course is hollow (0.3 mm clearance) and slips over the original's top course, tower and bands; a pocket above grips the fox, mouse or bunny head. The original's arms run out through the open arm ends.
 
-The wall and tower print in Bright Green; the tower sides carry the originals' ledges (a plinth, a middle ledge and a cornice, 1 mm proud). White, as on the originals: the three bands (one over each bend, one from the middle of the inner face to the tower) and the raised frog head.
+The wall and tower print in Bright Green, with the same two brick courses all round and grooves along the wall top, parallel to its faces (three boards), and a tower top of four planks, like the originals'. White, as on the originals: the three bands (one over each bend, one from the middle of the inner face to the tower) and the raised frog head.
 
 - `markers/frog_marker.3mf`: the model, with two bodies: `Body` (green) and `Details` (white).
 - `markers/frog_marker_A1.3mf`: a Bambu Studio project with 4 markers on one plate (A1, 0.6 mm nozzle).

@@ -61,12 +61,16 @@ sk("OuterSketch",O.difference(P)); ex("Course1","OuterSketch",0,course,"new",bod
 sk("GrooveSketch",Oin.difference(P)); ex("Groove","GrooveSketch",course,groove,"join",["Body"])
 ex("Course2","OuterSketch",course+groove,course,"join",["Body"])
 sk("TowerSketch",T); ex("Tower","TowerSketch",wall_top,groove,"join",["Body"])
-# tower ledges like the originals' (plinth, middle ledge, cornice, 0.98 mm proud); side faces only, the back stays flush at back_y
-tx0,ty0=T.bounds[2],T.bounds[1]; lp=0.98
-L2=unary_union([box(sx*tx0-(lp if sx<0 else 0),ty0-0.2,sx*tx0+(lp if sx>0 else 0),back_y) for sx in (1,-1)])
-sk("LedgeSketch",L2)
-for name,z0,h in (("Plinth",0,1.4),("MidLedge",course+groove/2-0.5,1.0),("Cornice",tower_top-1.34,1.34)):
-    ex(name,"LedgeSketch",z0,h,"join",["Body"])
+# no tower ledges (user 2026-11-20: their lines didn't match the courses at the back; the tower carries the wall's courses and groove all round)
+# wall-top grooves and parallel wall faces: parallel.py, applied to the design after this batch
+# tower top planks like the originals' (user 2026-11-20): 4 planks front to back, 0.66 x 0.66 mm grooves between them, running to the
+# back edge (user: to the end of the square; the original keeps a 1.98 mm board across the back); the original's 2.8 mm planks scale to (tower width - 3 grooves) / 4 here
+tx0=T.bounds[2]; pw=(2*tx0-3*groove)/4
+P2=unary_union([box(c-groove/2,0,c+groove/2,back_y+1) for c in (0,pw+groove,-(pw+groove))])
+sk("PlankSketch",P2,tower_top); ex("TowerPlanks","PlankSketch",0,-groove,"cut",["Body"])
+# and down the tower back face, full height (user 2026-11-20: keep the grooves going in the back)
+P3=unary_union([box(c-groove/2,back_y-groove,c+groove/2,back_y+1) for c in (0,pw+groove,-(pw+groove))])
+sk("BackGrooveSketch",P3); ex("BackGrooves","BackGrooveSketch",0,tower_top,"cut",["Body"])
 sk("CavitySketch",C); ex("Cavity","CavitySketch",0,ceiling,"cut",["Body"])
 sk("HeadPocketSketch",Hp); ex("HeadPocket","HeadPocketSketch",ceiling,head_h+0.3,"cut",["Body"])
 sk("PostSketch",P); ex("Posts","PostSketch",0,tower_top,"new",body="Details")
@@ -87,16 +91,18 @@ cmds+= [{"command":"sketch.create","params":{"plane":"XY","offset":tower_top,"na
  {"command":"sketch.circle.center","params":{"center":[-3.1,cy+2.4],"radius":2.1}},
  {"command":"sketch.circle.center","params":{"center":[3.1,cy+2.4],"radius":2.1}},
  {"command":"sketch.finish","params":{}},
- {"command":"solid.extrude","params":{"sketch":"FrogSketch","distance":icon_h,"operation":"join","targets":["Details"],"name":"FrogHead"}},
+ {"command":"solid.extrude","params":{"sketch":"FrogSketch","distance":icon_h+groove,"start_offset":-groove,"operation":"join","targets":["Details"],"name":"FrogHead"}},
  {"command":"sketch.create","params":{"plane":"XY","offset":tower_top,"name":"FrogEyesSketch"}},
  {"command":"sketch.circle.center","params":{"center":[-3.1,cy+2.6],"radius":0.8}},
  {"command":"sketch.circle.center","params":{"center":[3.1,cy+2.6],"radius":0.8}},
  {"command":"sketch.finish","params":{}},
- {"command":"solid.extrude","params":{"sketch":"FrogEyesSketch","distance":icon_h+1,"operation":"cut","targets":["Details"],"name":"FrogEyes"}},
+ {"command":"solid.extrude","params":{"sketch":"FrogEyesSketch","distance":icon_h+groove+1,"start_offset":-groove,"operation":"cut","targets":["Details"],"name":"FrogEyes"}},
  {"command":"sketch.create","params":{"plane":"XY","offset":tower_top,"name":"FrogMouthSketch"}},
  {"command":"sketch.arc.three_point","params":{"start":[-2.7,cy-1.1],"through":[0,cy-2.4],"end":[2.7,cy-1.1]}},
  {"command":"sketch.finish","params":{}},
- {"command":"solid.extrude","params":{"sketch":"FrogMouthSketch","thin":True,"thickness":0.8,"distance":icon_h+1,"operation":"cut","targets":["Details"],"name":"FrogMouth"}},
+ {"command":"solid.extrude","params":{"sketch":"FrogMouthSketch","thin":True,"thickness":0.8,"distance":icon_h+groove+1,"start_offset":-groove,"operation":"cut","targets":["Details"],"name":"FrogMouth"}},
+ # the head starts at the plank grooves' floor (user 2026-11-20: no empty space under the face): its outline is cut out of the planks
+ {"command":"solid.extrude","params":{"sketch":"FrogSketch","distance":-groove,"operation":"cut","targets":["Body"],"name":"HeadSeat"}},
  {"command":"measure","params":{"summary":True}}]
 json.dump({"commands":cmds},open('/tmp/solidcraft-mcp-31882-249d7689/frog/cap_batch.json','w'))
 print(len(cmds),'steps; ceiling',round(ceiling,3),'wall_top',wall_top,'tower_top',tower_top,'head pocket bounds',[round(v,2) for v in Hp.bounds],'tower bounds',[round(v,2) for v in T.bounds])
