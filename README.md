@@ -12,7 +12,7 @@ Printed on a Bambu Lab A1 with a 0.6 mm nozzle in PLA.
 
 ## Made with
 
-- [FreeCAD](https://www.freecad.org/): the original parametric model (`supersketch.FCStd`).
+- [FreeCAD](https://www.freecad.org/): the original parametric model (`supersketch.FCStd`, removed 2026-11-20; it is in git history).
 - [SolidCraft](https://github.com/tangency-labs/solidcraft): the current parametric designs (`.sc` files) and the 3MF exports in `prints/`.
 - [OpenSCAD](https://openscad.org/): the MakerWorld customizer versions in `makerworld/`.
 - [Bambu Studio](https://bambulab.com/en/download/studio): the print project `root_organizer_A1.3mf`, built by a Python script (`.bambu/plates.py`).
@@ -29,7 +29,7 @@ The wall and tower print in Bright Green, with the same two brick courses all ro
 
 - `markers/frog_marker.3mf`: the model, with two bodies: `Body` (green) and `Details` (white).
 - `markers/frog_marker_A1.3mf`: a Bambu Studio project with 4 markers on one plate (A1, 0.6 mm nozzle).
-- `markers/frog_marker.png`, `markers/frog_marker_stacked.png`: renders, alone and stacked on a fox marker.
+- `markers/frog_marker.png`: a render.
 
 ## What is in the box
 
@@ -109,7 +109,6 @@ The three deck boxes are one piece each, open at the top and symmetric front to 
 | `double.sc` | The Vagabond box: two boxes (Vagabond and Vagabond 2) sharing one lid that holds both card stacks |
 | `deck.sc` | Deck boxes for the card decks (Standard Deck, Exiles and Partisans, Squires and Disciples): one piece, open top, no lid |
 | `makerworld/` | OpenSCAD versions for MakerWorld's customizer, one per design (see `makerworld/README.md`) |
-| `supersketch.FCStd` | The original FreeCAD design |
 | `prints/` | One 3MF per box (box + lid), exported from the SolidCraft designs |
 | `.bambu/plates.py` | Builds the Bambu Studio project from `prints/`: one plate per filament colour, with parts spread evenly |
 | `root_organizer_A1.3mf` | Ready-to-print Bambu Studio project (A1, 0.6 mm nozzle, 0.30 mm layers, PLA Basic): 19 plates |
